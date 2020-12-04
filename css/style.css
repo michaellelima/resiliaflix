@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #2f2e2e;
+    
+    
+}
+
+header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label{
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #8844EE;
+}
+
+strong {
+    color: black;
+    background: #8844EE ;
+    border: 1px solid #8844EE;
+    border-radius: 5px;
+}
+
+.menuPrincipal ul{
+    display: flex;
+    padding-right: 140px;
+}
+
+.menuPrincipal ul li{
+    margin-left: 10px;
+    
+
+}
+
+.menuPrincipal ul li a{
+   
+    display: block;
+    padding: 10px;
+    border: 1px solid #8844EE;
+    border-radius: 8px;
+    background:#8844EE;
+    color: black; 
+    font-weight: bold;
+}
+
+.menuPrincipal ul li a:hover{
+    background: black;
+    color: #8844EE;
+    font-weight: bold;
+    border: 1.5px solid #8844EE;
+    
+}
+
+/* main */
+
+main {
+    min-height: calc(100vh - 330px);
+    
+}
+
+.collumn{
+    width: 25%;
+    padding: 10px;
+    align-items: center;
+
+    
+   
+}
+
+
+
+.grid-catalogo {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    
+
+
+}
+
+
+
+/* footer*/
+
+/*.options-footer {
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 760px;
+    
+}
+
+
+.rodapePrincipal {
+    color: #757575;
+    font-size: 13px;
+    padding: 5px 0 0 5px; 
+    align-content: flex-start;
+}*/
+
+
+
+ .footer-nav {
+    background: black;
+    color:white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    
+    padding: 0 90px 0 90px;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    display: inline-flex;
+    padding: 5px 2px;
+    color: #757575;
+    font-size: 13px;
+  }
+
+  
+
+select {
+    display: inline-flex;
+    margin: 10px 0px;
+    padding: 12px;;
+  }
+
+
+.nav-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height:100px;
+  }
+  
+
+
+
